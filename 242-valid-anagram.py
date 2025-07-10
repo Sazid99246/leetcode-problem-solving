@@ -7,6 +7,7 @@ class Solution:
             sorted_t = "".join(sorted(list(t)))
             return sorted_s == sorted_t
 
+
 s = Solution()
 print(s.isAnagram("anagram", "nagaram"))
 print(s.isAnagram("rat", "car"))
